@@ -6,12 +6,9 @@
 *.out
 
 # Dependencies
-venv/
-.venv/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+target/
+.m2/
+.gradle/
 
 # Logs and temp files
 *.log
@@ -21,14 +18,20 @@ __pycache__/
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Build directories
-build/
-dist/
-target/
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# System files
+.DS_Store
+Thumbs.db
 ```
